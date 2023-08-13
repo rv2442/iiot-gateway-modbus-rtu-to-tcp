@@ -1,0 +1,5 @@
+pymodbus
+serial
+jmespath
+json
+requests

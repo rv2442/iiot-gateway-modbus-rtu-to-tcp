@@ -1,0 +1,23 @@
+{
+    "mode": {
+        "RtuSlave": {
+            "TcpMasterIP": "127.0.0.1",
+            "TcpPort": 502,
+            "RtuPort": "/tmp/ptyp0",
+            "PeerID": 0,
+            "Timeout": 0,
+            "Baudrate": 9600,
+            "FrameBreak": 0
+        },
+
+        "RtuMaster": {
+            "TcpSlaveIP": "127.0.0.1",
+            "TcpPort": 502,
+            "RtuPort": "/tmp/ptyp0",
+            "PeerID": 0,
+            "Timeout": 0,
+            "Baudrate": 9600,
+            "FrameBreak": 0
+        }
+    }
+}
